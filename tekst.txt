@@ -3,9 +3,13 @@ git config --global -e
 
 git init
 git add <file>
-git rm <file>
+git add *.txt
+git add . (adds everything)
+git rm --catched <file>
+git rm -f <file>
 git status
 git commit
+git commit -m 'commit comment'
 
 with remote repository:
 git push

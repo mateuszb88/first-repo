@@ -3,6 +3,7 @@ git config --global -e
 
 git init
 git add <file>
+git rm <file>
 git status
 git commit
 
@@ -10,3 +11,7 @@ with remote repository:
 git push
 git pull
 git clone (copy repository to a new directory)
+
+git config --global user.email 'me@gmail.com'
+
+touch <file>

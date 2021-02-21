@@ -1,21 +1,29 @@
 git --version
-git config --global -e
+git config --global -e 	                                   // edytuje Username, email, etc.
+git config --global user.email 'me@gmail.com'
 
-git init
-git add <file>
+touch <file>                                               //tworzy plik
+
+git init                                                   //tworzy w katalogu lokalne repozytorium
+git add <file> 
 git add *.txt
-git add . (adds everything)
-git rm --catched <file>
-git rm -f <file>
+git add .                                                  //dodaje wszystko
+git rm --cached <file>                                     //usuwa plik, ale zostawia go
+git rm -f <file>                                           //usuwa plik permanentnie
 git status
 git commit
 git commit -m 'commit comment'
+.gitignore                                                 //w tym pliku wpisane są pliki/katalogi, które git ma ignorować
+git branch <name>
+git checkout <branch name>                                 //przechodzi do brancha
+git merge <branch name>                                    //merge'uje brancha
+
+
 
 with remote repository:
 git push
 git pull
-git clone (copy repository to a new directory)
+git clone                                                  //copy repository to a new directory
 
-git config --global user.email 'me@gmail.com'
 
-touch <file>
+

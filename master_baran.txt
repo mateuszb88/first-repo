@@ -1,0 +1,1 @@
+to jest plik tekstowy tylko na gałęzi master_baran
